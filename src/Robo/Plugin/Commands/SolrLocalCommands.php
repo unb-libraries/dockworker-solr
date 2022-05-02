@@ -16,7 +16,8 @@ class SolrLocalCommands extends DockworkerLocalCommands {
    */
   public function getErrorLogExceptions() {
     return [
-        'Failed to reserve shared memory' => 'Not a critical error',
+      'errors=0' => 'Reports zero errors. Not an error.',
+      'Failed to reserve shared memory' => 'Not a critical error',
     ];
   }
 
